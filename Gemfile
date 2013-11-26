@@ -33,7 +33,7 @@ group :doc do
 end
 
 group :development, :test do
-  
+  gem 'rvm-capistrano'  
   gem 'rspec-rails', '2.11.0'
 end
 
@@ -43,9 +43,9 @@ group :test do
   gem 'capybara', '1.1.2'
 end
 
-group :production do
-  gem 'pg', '0.12.2'
-end
+# group :production do
+#   gem 'pg', '0.12.2'
+# end
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
